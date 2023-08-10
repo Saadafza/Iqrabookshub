@@ -11,7 +11,7 @@ function Home() {
 
   useEffect(() => {
 
-    axios.get("https://iqnodejs-git-main-saadafza.vercel.app/api//students").then((res) => {
+    axios.get("https://iqnodejs-git-main-saadafza.vercel.app/api/students").then((res) => {
       if (res.data.status == true) {
         setStudents(res.data.students);
       }
